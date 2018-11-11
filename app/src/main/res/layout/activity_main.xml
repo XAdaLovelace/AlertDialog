@@ -18,8 +18,8 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="PopAlert"
-        android:text="Pop an alert message" />
+        android:onClick="AlertIcon"
+        android:text="Change to one of the primary colors" />
 
     <Space
         android:layout_width="match_parent"
@@ -30,8 +30,8 @@
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="AlertIcon"
-        android:text="Pop an alert w/ an ICON" />
+        android:onClick="PopAlert"
+        android:text="Addition of all the primary colors" />
 
     <Space
         android:layout_width="match_parent"
@@ -43,31 +43,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="AlretIconClose"
-        android:text="Pop an alert w/ ICON and CLOSE" />
+        android:text="Reset" />
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"/>
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="ChangeBgRnd"
-        android:text="Change BG randomly" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"/>
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="ChangeBgRndDefault"
-        android:text="Change and reset BG" />
 
     <Space
         android:layout_width="0dp"
